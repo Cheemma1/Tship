@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="track.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Track</title>
+</head>
+<body>
+<div class="navbar">
+<label class="logo">Tship</label>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-window-close" onclick="hideMenu()"></i>
+<ul>
+ <li><a href="index.html">Home</a></li>
+<li><a href="Track.html">Track Shipment</a></li>
+<li><a href="About.html">About Us</a></li>
+<li><a href="service.html">Services</a></li>
+ <li><a href="news">Contact Us</a></li>
+ </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</div>
+<h1 class="txt">Track Shipment</h1>
+<form action="">
+    <h2>Enter Cargo Number</h2>
+<input type="number"placeholder=" Enter Tracking Number"  >
+<button>Track Result</button>
+<h2>EG:12345</h2>
+</form>
+<footer>
+<div class="footer-links">
+<h1>Tship cargo</h1>
+<div>
+<h3>Useful links</h3>
+<ul>
+<li>Home</li>
+ <li>Track Shipment</li>
+<li>About Us</li>
+<li>Services</li>
+<li>Contact Us</li>
+</ul>
+</div>
+ <div>
+ <h3>Our Main Service</h3>
+<ul>
+<li>Home</li>
+<li>Track Shipment</li>
+<li>About Us</li>
+<li>Services</li>
+<li>Contact Us</li>
+</ul>
+    </div>
+</div>
+<h4>&copy; All right reseverd.Tship| Coded by Chidimma </h4>
+</footer>
+<!-- chat toggle -->
+<div class="comment">
+    <button class="btn modal-btn">
+        <h4>Chat <span><i class="fa fa-comment"></i></span></h4>
+    </button>
+</div>
+<div class="model-overlay">
+ <div class="model-container">
+<form action="">
+<h2>To send us a message, kindly leave your contact info so we can get back to you </h2>
+ <input type=" text" placeholder=" Name" id="name">
+ <input type="email" placeholder="Email" id="email">
+ <input type="text" placeholder=" Message" id="message"> <br>
+ <button id="submit">Submit</button>
+ <button class="close-btn">
+ <i class="fa fa-window-close"></i></button>
+ <div id="score"></div>
+ </form>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
